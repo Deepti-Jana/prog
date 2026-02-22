@@ -1,8 +1,8 @@
  /**
  * @author Deepti Jana
  * @version 4.0
- */
-public class OOPSBannerApp {
+ **/
+public class OOPSBannerApp{
 
     public static void main(String[] args) {
 
@@ -19,7 +19,7 @@ public class OOPSBannerApp {
 
         // Use enhanced for-loop to print
         for (String line : lines) {
-            System.out.println(line);
+            System.out.println(line); 
         }
     }
 }
