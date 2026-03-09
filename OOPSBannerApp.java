@@ -1,25 +1,17 @@
-
- /**
- * @author Deepti Jana
- * @version 5.0
- **/
-public class OOPSBannerApp{
+/**
+ * * @author Deepti Jana
+ * @version 3.0
+ */
+public class OOPSBannerApp {
 
     public static void main(String[] args) {
-
-        // Create array with 7 banner lines
-        String[] lines= {
-        String.join(" ", "   ***   ", "   ***   ", "******   ", "  *****  "),
-        String.join(" ", " **   ** ", " **   ** ", "**    ** ", " **      "),
-        String.join(" ", "**     **", "**     **", "**     **", "**       "),
-        String.join(" ", "**     **", "**     **", "**    ** ", "  *****  "),
-        String.join(" ", "**     **", "**     **", "******   ", "      ** "),
-        String.join(" ", " **   ** ", " **   ** ", "**       ", " **   ** "),
-        String.join(" ", "   ***   ", "   ***   ", "**       ", "  *****  ")};
-
-        // Use enhanced for-loop to print
-        for (String line : lines) {
-            System.out.println(line); 
-        }
-	}
+        
+        System.out.println((String.join(" ", "   ***   ", "   ***   ", "******   ", "  ***** ")));
+        System.out.println((String.join(" ", " **   ** ", " **   ** ", "**    ** ", " **     ")));
+        System.out.println((String.join(" ", "**     **", "**     **", "**     **", "**      ")));
+        System.out.println((String.join(" ", "**     **", "**     **", "**    ** ", "  ***** ")));
+        System.out.println((String.join(" ", "**     **", "**     **", "******   ", "      **")));
+        System.out.println((String.join(" ", " **   ** ", " **   ** ", "**       ", " **   **")));
+        System.out.println((String.join(" ", "   ***   ", "   ***   ", "**       ", "  ***** ")));
+       }
 }
